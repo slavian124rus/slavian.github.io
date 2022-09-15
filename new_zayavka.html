@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Подача заявки</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<div class="section" >
+    <div class="container">
+        <div class="otstup">
+
+        <a href="profile.php">Вернуться в профиль</a>
+    </div>
+    </div>
+</div>
+
+<body class="foto">
+<div class="container">
+    <div class="container">
+        <div class="section ">
+            <div class="row">
+            <div class="col s10 offset-s1 center">
+            <div id="login_container">
+                <div id="form_container">
+
+                    <h1>
+                        Welcome
+                    </h1>
+
+                    <form action="script/new_zay_sc.php" method='post'>
+
+                    <input type='text' placeholder="Улица, место или координаты" name='mesto' value='' class='text_input' />
+                    <input type='text'  placeholder="Номер телефона" name='phone' value='' class='text_input' data-length="11"  />
+                    <input type='text'  placeholder="Площадь обьекта" name='odject' value='' class='text_input' />
+                    <input type='text'   placeholder="Укажите тип работы'" name='cat' value=''  class='text_input'/>
+            
+
+
+                    <input type='submit' value='Подать заявку' id='zayavka' name='zayavka' class="btn" />
+                    </form>
+                    <br><br>
+                    
+
+
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>
+
+
+      
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    
+    </body>
+    </html>
